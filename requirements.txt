@@ -1,0 +1,7 @@
+requests
+pytest
+flask
+fastapi
+uvicorn
+pydantic
+python-dotenv
