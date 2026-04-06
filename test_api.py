@@ -1,7 +1,13 @@
 from fastapi import FastAPI
 
 app = FastAPI()
-api_key=dnjncsdjjndsjnckdcdskn
+
+
+api_key = "aB3dE5fG7hI9jK1lM2nO4pQ6rS8tU0vW"
+
+
+client_secret = "ghp_1234567890abcdefghijklmnopqrstuvwx"
+
 @app.get("/users")
 def get_users():
     return {"message": "list of users"}
